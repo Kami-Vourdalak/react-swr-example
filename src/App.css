@@ -71,3 +71,11 @@
 .product-form button:disabled {
   opacity: 0.6;
 }
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: aliceblue;
+}

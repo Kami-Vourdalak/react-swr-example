@@ -4,26 +4,22 @@ A simple product store built with React SWR caching
 
 ## How to run the project?
 
-Start the RESTful mock server (Requires [`json-server`](https://www.npmjs.com/package/json-server)):
-
-```bash
- json-server --watch --port=5000 --delay=1000 db.json
-```
 
 Install dependencies:
-
 ```bash
 npm i
-# --- or ---
-yarn
 ```
 
-Run the app:
-
+Start the REST mock server (port 5000)
+```bash
+ npm run server
 ```
+
+
+Run the app (port 3000):
+
+```bash
 npm start
-# --- or ---
-yarn start
 ```
 
 ## License
